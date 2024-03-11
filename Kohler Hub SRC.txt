@@ -1,7 +1,7 @@
 if "V2.8" == "V2.8" then
 local KEY = "Kohler"
 local whitelist = false
-local Buyers = game:GetService("HttpService"):JSONDecode(game:HttpGet('https://checks.kohlerwellworth.repl.co/REQUIRED/ID.html'))
+local Buyers = [1472158, 125077162, 2565590094, 1894038421, 1122359355, 3045822334, 3763218977, 604446954, 31810254, 3671431111, 395901750, 1738593508, 4374142489, 3827460163, 3183973554, 4110355805, 4110349997, 103714689, 4527311764, 4374339955, 373101345, 4543852158, 4374368220, 1192974993, 2483430758, 4240602131, 646728562]
 task.wait()
 for i,v in pairs(Buyers) do
     if game.Players.LocalPlayer.UserId == v then
