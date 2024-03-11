@@ -1,5 +1,5 @@
-if "V2.8" == game:HttpGet("https://checks.kohlerwellworth.repl.co/REQUIRED/version.html") then
-local KEY = game:HttpGet("https://checks.kohlerwellworth.repl.co/REQUIRED/key.html")
+if "V2.8" == "V2.8" then
+local KEY = "Kohler"
 local whitelist = false
 local Buyers = game:GetService("HttpService"):JSONDecode(game:HttpGet('https://checks.kohlerwellworth.repl.co/REQUIRED/ID.html'))
 task.wait()
